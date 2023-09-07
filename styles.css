@@ -1,14 +1,17 @@
 a {
     color: #F8F1DE;
     text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    margin: 20px;
+    font-size: 15px;
 }
 
-nav ul li{
-    display: inline;
-    margin: 20px;
-    font-family: 'Space Mono', monospace;
-    font-size: 15px;
-    
+nav li {
+    display: inline-block;
+}
+
+nav ul  {
+    text-align: center;
 }
 
 header {
@@ -20,11 +23,11 @@ header {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     margin: 0px;
     font-family: 'Space Mono', monospace;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
